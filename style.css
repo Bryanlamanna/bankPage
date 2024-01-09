@@ -81,7 +81,7 @@ i {
     height: 100vh;
     padding-left: 5em;
     padding-right: 3em;
-    display: flex;
+    display: none;
     flex-direction: column;
     text-align: center;
     
@@ -132,10 +132,92 @@ button {
     font-size: 7em;
 }
 
+
+
+.client-section {
+    gap: 2em;
+    justify-content: space-around;
+    height: 100vh;
+    padding-left: 5em;
+    padding-right: 3em;
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+
+.image-client {
+    max-width: 40em;
+}
+
+.pannel-client {
+    width: 40em;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 20em;
+    border-radius: 8px;
+    border: none;
+    padding: .5em;
+}
+
+#user-form {
+    text-align: left;
+}
+
 .money-section {
+    
+    justify-content: space-around;
+    height: 100vh;
+    padding-left: 5em;
+    padding-right: 3em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card-money {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 8px;
+    width: 20em;
+    padding-bottom: 1em;
+    padding-top: .5em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    height: 100vh;
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-section {
+    justify-content: center;
+}
+
+ul {
     display: none;
 }
 
-.client-section {
-    display: none;
+.questions {
+    cursor: pointer;
+    margin-left: 10em;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: .5em;
+    width: 21em;
+    padding: .5em;
 }
